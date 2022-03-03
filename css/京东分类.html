@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height:100%;
+        }
+        ul{
+            list-style: none;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            height: 45px;
+            background: gray;
+           
+        }
+        header ul{
+            display: flex;
+            overflow: auto;
+            color: white;
+        }
+        header ul li{
+            flex-shrink: 0;
+           line-height: 45px;
+           padding: 0 10px;
+        }
+        header ul li:hover{
+            background: white;
+            color: red;
+        }
+        footer{
+            height: 50px;
+            background: gray;
+        }
+        section {
+            flex:1;
+            display: flex;
+            overflow: auto;
+
+        }
+        section ul{
+            width: 85px;
+            overflow: auto;
+
+        }
+        section ul li{
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            font-size: 14px;
+            background:#f8f8f8 ;
+        }
+        section ul li:hover{
+            background: white;
+            color: #e96062;
+        }
+        section>div{
+            flex:1;
+            background: yellow;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            overflow: auto;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        section .content>div{
+            height: 101px;
+            width: 33.33%;
+            /*background: red;*/
+            text-align: center;
+        }
+        section .content>div img{
+            width: 60px;
+            height: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>热门推荐</li>
+            <li>手机数码</li>
+            <li>京东超市</li>
+            <li>家用电器</li>
+            <li>办公电脑</li>
+            <li>玩具乐器</li>
+            <li>家居厨具</li>
+            <li>家居家装</li>
+            <li>内衣配饰</li>
+            <li>男装</li>
+            <li>男鞋</li>
+            <li>女装</li>
+            <li>女鞋</li>
+            <li>童装</li>
+            <li>包包</li>
+            <li>饰品</li>
+            <li>生鲜</li>
+            <li>水果</li>
+            <li>百货</li>
+        </ul>
+    </header>
+    <section>
+        <ul>
+            <li>热门推荐</li>
+            <li>手机数码</li>
+            <li>京东超市</li>
+            <li>家用电器</li>
+            <li>办公电脑</li>
+            <li>玩具乐器</li>
+            <li>家居厨具</li>
+            <li>家居家装</li>
+            <li>内衣配饰</li>
+            <li>男装</li>
+            <li>男鞋</li>
+            <li>女装</li>
+            <li>女鞋</li>
+            <li>童装</li>
+            <li>包包</li>
+            <li>饰品</li>
+            <li>生鲜</li>
+            <li>水果</li>
+            <li>百货</li>
+        </ul>
+        <div class="content">
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>电脑</p>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
