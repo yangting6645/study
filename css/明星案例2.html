@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            display: block;
+
+        }
+        .box{
+            width:350px;
+            margin: 0 auto;
+            border: 5px solid red;
+            position: relative;
+        }
+        img,p,h2{
+            transition: all 1s;
+        }
+        .box .pic{
+            width: 100%;
+
+        }
+        .box:hover .pic{
+            transform: translateY(-20px);
+            opacity: 0.5;
+        }
+        .box h2{
+            position: absolute;
+            left:60px;
+            top:100px;
+            color:white;
+            transform: translateY(-200px);
+        }
+        .bpx:hover h2{
+            transform: translateY(0px);
+        }
+        .box p{
+            position: absolute;
+            bottom:0px;
+
+        }
+        .box:hover p{
+            transform: translateY(-80px);
+            opacity: 1;
+        }
+        .box .musicbth{
+            position: absolute;
+            right: 10px;
+            top:10px;
+            width: 40px;
+            height: 40px;
+        }
+        .box:hover .musicbth{
+            transform: rotate();
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="2.png" alt="">
+        <div>
+            <h2>tltle</h2>
+            <p>I experienced a stillness that I did not think 
+                existed"Regardless of when to begin, 
+                it is important not to stop after the beginning; 
+                no matter what the end, it is important not 
+                to regret after the end."</p>
+        </div>
+        <img src="musicbth.png" alt="" class="muicbth">
+    </div>
+</body>
+</html>
