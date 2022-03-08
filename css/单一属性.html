@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background: red;
+            /*animation: kerwinrun1 2s linear infinite;*/
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+            animation-direction: alternate-reverse;
+        }
+        div:hover{
+            animation-play-state: paused;
+        }
+        @keyframes kerwinrun1{
+            from{
+                width: 200px;
+                height: 200px;
+                background: red;
+            }
+        }
+        to{
+            width: 400px;
+            height: 600px;
+            background: green;
+        }
+        @keyframes kerwinrun2{
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
