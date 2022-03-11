@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+</head>
+<body>
+    <div class="outer">
+        <div class="center">
+            <div class="inner"></div>
+        </div>
+    </div>
+    <script>
+        //绑定事件
+        //1.获取到需要用到的元素
+        var outer=document.querySelector('.outer')
+        var center=document.querySelector('.center')
+        var inner=document.querySelector('.inner')
+
+        //2.给三个元素都绑定点击事件
+        outer.onclick=function(){console.log('我是outer元素,我被点击了')}
+        center.onclick=function(){console.log('我是center元素,我被点击了')}
+        inner.onclick=function(){console.log('我是inner元素,我被点击了')}
+
+    </script>
+</body>
+</html>
