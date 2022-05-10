@@ -1,0 +1,17 @@
+{
+  "name": "client-side",
+  "version": "1.0.0",
+  "description": "source code of ts-learning",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config./build/webpack.config.js"
+  },
+  "keywords": [
+    "typescript",
+    "source_code",
+    "lison"
+  ],
+  "author": "yt <2913483760@qq.com>",
+  "license": "MIT"
+}
